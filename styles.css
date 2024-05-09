@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1rem;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    width: 60px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    display: block;
+    list-style: none;
+}
+
+/* this is the body */
+h1,
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.video {
+    margin-top: 4px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid purple;
+}
+
+.products ul {
+    margin: 20px;
+}
+
+.btn {
+    background-color: yellow;
+}
+
+.btn:hover {
+    background-color: orange;
+}
+
+/* General form styling */
+form {
+    background-color: rgb(248, 249, 250);
+    /* Light grey background */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 60vw;
+    margin: 20px auto;
+    /* Centering the form */
+}
+
+/* Style for each label and input group */
+form label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    /* Dark grey color for text */
+    display: block;
+}
+
+
+
+/* Input field styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(204, 204, 204);
+    /* Light grey border */
+}
+
+/* Style modifications for the submit button */
+input[type="submit"] {
+    background-color: rgb(76, 175, 80);
+    /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    width: 60px;
+    font-size: 16px;
+}
+
+/* Hover and focus states for inputs and button */
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+input[type="submit"]:hover {
+    border-color: rgb(136, 136, 136);
+    /* Darker border on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(69, 160, 73);
+    /* Slightly darker green on hover */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    border-color: #0056b3;
+    /* Blue border for focus */
+    outline: none;
+}
+
+/* footer */
+
+footer {
+    background-color: gray;
+}
+
+.declare {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px
+}
+
+footer a {
+    display: block;
+}
+
+footer p {
+    text-align: right;
+}
