@@ -164,5 +164,6 @@ footer p {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        row-gap: 10px;
     }
 }
