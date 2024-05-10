@@ -158,3 +158,11 @@ footer a {
 footer p {
     text-align: right;
 }
+
+@media (max-width: 500px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+}
